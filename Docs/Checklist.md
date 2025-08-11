@@ -1,63 +1,77 @@
 **CHECKLIST DE QUALIDADE DOS REQUISITOS**
 
-### **1 – Organização e Estrutura dos Requisitos**
+### **1 – Estrutura e Identificação**
 
-* Os requisitos estão organizados em uma seção específica chamada “Lista de Requisitos”?
+* Os requisitos estão em uma seção específica (ex: "Lista de Requisitos")?
 
-* Os requisitos possuem **identificadores únicos (ex: CDU01, CDU02...)**?
+* Possuem identificadores únicos (ex: CDU01, CDU02)?
 
-* Cada requisito está descrito **em local único**, sem necessidade de buscar informações dispersas?
-
----
-
-### **2 – Clareza, Precisão e Linguagem**
-
-* Cada requisito é descrito com **clareza**, **sem ambiguidade** e **com linguagem acessível**?
-
-* Cada requisito representa uma única necessidade (sem “e”, “ou”, “mas” indicando mais de uma ação)?
-
-* A declaração dos requisitos utiliza **terminologia padronizada** (ver glossário)?
-
-* Os requisitos são compreensíveis para qualquer pessoa que não participou do projeto?
+* Cada requisito está descrito em um único local, sem informações dispersas?
 
 ---
 
-### **3 – Coerência e Consistência**
+### **2 – Clareza e Linguagem**
 
-* Algum requisito entra em **conflito lógico ou funcional** com outro?
+* Os requisitos estão livres de ambiguidades (uma única interpretação possível)?
 
-* Requisitos relacionados estão **agrupados** ou **possuem referência cruzada**?
+* Cada requisito descreve apenas uma funcionalidade (sem "e", "ou")?
 
-* Os requisitos estão **consistentes entre si e com o objetivo geral do projeto**?
+* A linguagem é acessível para stakeholders não técnicos?
+
+* Termos técnicos estão definidos no glossário?
+
+---
+
+### **3 – Consistência e Conflitos**
+
+* Não há contradições entre requisitos (ex: CDU05 vs CDU10)?
+
+* Requisitos relacionados estão referenciados ou agrupados?
+
+* Todos estão alinhados ao objetivo do projeto?
 
 ---
 
 ### **4 – Completude e Nível de Detalhamento**
 
-* Os requisitos detalham todas as **funcionalidades esperadas** pelo usuário?
+* Cobrem todas as funcionalidades esperadas pelo usuário?
 
-* Os requisitos estão em nível de detalhamento **compatível com a etapa atual do projeto**?
+* Incluem fluxos alternativos (ex: erros, mensagens)?
 
-* Existem **requisitos implícitos** (não declarados) que precisam ser adicionados?
-
-* Todos os requisitos **cobrem as interações com o usuário**, inclusive mensagens, erros e fluxos alternativos?
+* Há requisitos não-funcionais definidos (ex: desempenho, segurança)?
 
 ---
 
-### **5 – Vocabulário e Glossário**
+### **5 – Qualidade Técnica**
 
-* Há termos que precisam ser **definidos no glossário**?
+* Livres de erros gramaticais ou ortográficos?
 
-* O glossário está incluso e é acessível junto à lista de requisitos?
+* Redigidos como sentenças completas e concisas?
 
-* Termos técnicos ou jargões estão definidos e padronizados?
+* São testáveis (critérios de aceitação claros)?
 
 ---
 
-### **6 – Qualidade Técnica e Escrita**
+### **6 – Padrões e Referências**
 
-* Os requisitos estão **livres de erros ortográficos ou gramaticais**?
+* Seguem a nomenclatura padrão do projeto (ex: "CDU" para casos de uso)?
+  
+* Utilizam termos do glossário?
+  
+* Possuem rastreabilidade para modelos (ex: diagramas UML)? 
 
-* Cada requisito está **redigido como sentença completa**?
+---
 
-* O texto está conciso, evitando repetições ou descrições vagas?
+### **8 – Validação Externa**
+
+* Foram revisados por stakeholders (usuários, equipe técnica)?
+
+* Priorizados (ex: MoSCoW – Must, Should, Could, Won’t)?
+
+---
+
+### **8. Conformidade**
+
+* Atendem a normas externas (ex: LGPD para dados)?
+
+* Estão de acordo com políticas da organização?
